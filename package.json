@@ -1,0 +1,15 @@
+{
+  "name": "zmt-sci-api",
+  "version": "1.0.0",
+  "description": "example api for zmt job application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Pat Curry",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "sqlite3": "^4.0.2"
+  }
+}

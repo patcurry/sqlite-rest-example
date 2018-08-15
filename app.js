@@ -16,7 +16,8 @@ db.serialize(() => {
     if (err) {
       console.error(err.message);
     }
-    console.log(row.id + '\t' + row.title);
+   // console.log(row.id + '\t' + row.title);
+    return {"id": row.id, "title": row.title}
   });
 });
 
